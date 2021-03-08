@@ -37,10 +37,13 @@ DJANGO_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_countries',
 ]
 
 PROJECT_APPS = [
     'users.apps.UsersConfig',
+    'rooms.apps.RoomsConfig',
+    'core.apps.CoreConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS+PROJECT_APPS
